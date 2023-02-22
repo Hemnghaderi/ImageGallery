@@ -1,0 +1,10 @@
+﻿@using ImageGallery
+@using ImageGallery.Models
+@using ImageGallery.Models.Identity
+@using ImageGallery.Models.Forms
+@using ImageGallery.Controllers
+@using ImageGallery.Services
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<GalleryUser> SignInManager
+@inject UserManager<GalleryUser> UserManager
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
